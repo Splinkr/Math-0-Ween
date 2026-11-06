@@ -1,0 +1,7 @@
+# Preserve the exact original bytes of the selected source and its license.
+source/** -text
+
+# Public documentation uses UTF-8 with LF line endings.
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
